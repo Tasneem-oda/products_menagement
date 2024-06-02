@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#f8f9fa ;
+    color: #212529;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+   font-size: 30px;
+}
+.cruds{
+    width: 80%;
+    margin: auto; 
+   padding: 10px;
+   margin-top: 30px;
+
+   
+}
+.cruds input{
+    width: 100%;
+    background-color: #ffffff ;
+    color:#000000 ;
+     margin: 10px 0;
+     height: 20px;
+     padding: 10px;
+     border:1px solid #007bff;
+     outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+     
+}
+input:focus{
+    background-color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.theprice input {
+    width: 20%;
+}
+button{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border: none ;
+    border-radius: 2000px;
+    color: rgb(7, 4, 21);
+    background-color: #007bff;
+    cursor: pointer;
+   
+}
+button:hover{
+    background-color: #0056b3;
+    letter-spacing: 1px;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+small::before {
+    content:'total:';
+    
+}
+.deleteall{
+    margin: 20px 0;
+}
+.total {
+    background: #ff7676;
+    margin: 5px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ffff;
+}
+.search-by{
+    display: flex;
+    justify-content: space-around;
+}
+.search-by button {
+    
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    
+   
+}
+.nom{
+    text-transform: uppercase;
+}
+
+tr , td{
+    padding: 10px;
+}
+@media(max-width:600px){
+    .cruds{
+        width: 95%;
+    }
+    table tr th{
+        margin: 0 15px;
+        border-collapse: collapse;
+        background-color: #342a40;
+        padding: 3px;
+        border-radius: 2px;
+        color: #ffffff;
+    }
+}
+@media(max-width:900px){
+    table tr th{
+        margin: 0 15px;
+        border-collapse: collapse;
+        background-color: #342a40;
+        padding: 3px;
+        border-radius: 2px;
+        color: #ffffff;
+    }
+}
